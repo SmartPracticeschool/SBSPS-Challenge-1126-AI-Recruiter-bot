@@ -1,0 +1,2260 @@
+{
+  "intents": [
+    {
+      "intent": "go_back",
+      "examples": [
+        {
+          "text": "restart"
+        },
+        {
+          "text": "go back"
+        },
+        {
+          "text": "start again"
+        },
+        {
+          "text": "back"
+        },
+        {
+          "text": "go back again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "serial_number",
+      "examples": []
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yup , please start"
+        },
+        {
+          "text": "start"
+        },
+        {
+          "text": "ya"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "yup"
+        },
+        {
+          "text": "yup."
+        },
+        {
+          "text": "yes start the process."
+        },
+        {
+          "text": "yes, please"
+        },
+        {
+          "text": "i understood the process"
+        },
+        {
+          "text": "understood"
+        },
+        {
+          "text": "i got it"
+        },
+        {
+          "text": "got it"
+        },
+        {
+          "text": "start the process"
+        },
+        {
+          "text": "please start"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "got the process"
+        },
+        {
+          "text": "got that"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "FS_dvlpr",
+      "examples": [
+        {
+          "text": "web"
+        },
+        {
+          "text": "client"
+        },
+        {
+          "text": "server"
+        },
+        {
+          "text": "http"
+        }
+      ]
+    },
+    {
+      "intent": "rates",
+      "examples": [
+        {
+          "text": "8"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "9"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "10"
+        },
+        {
+          "text": "6"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Good Evening"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "hi i, this is hemlata"
+        },
+        {
+          "text": "Morning"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Evening"
+        },
+        {
+          "text": "GM"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Afternoon"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "GE"
+        },
+        {
+          "text": "GA"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "experience",
+      "examples": [
+        {
+          "text": "I have experience"
+        },
+        {
+          "text": "experienced"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "test_res",
+      "examples": [
+        {
+          "text": "24%"
+        },
+        {
+          "text": "80%"
+        },
+        {
+          "text": "90%"
+        },
+        {
+          "text": "85.90%"
+        },
+        {
+          "text": "82.50%"
+        },
+        {
+          "text": "40%"
+        },
+        {
+          "text": "20.60%"
+        },
+        {
+          "text": "%"
+        },
+        {
+          "text": "38.67%"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "web_dvlpr",
+      "examples": [
+        {
+          "text": "web Developer"
+        },
+        {
+          "text": "node js"
+        },
+        {
+          "text": "react js"
+        },
+        {
+          "text": "angular js"
+        },
+        {
+          "text": "javascript"
+        },
+        {
+          "text": "js"
+        },
+        {
+          "text": "php"
+        },
+        {
+          "text": "css"
+        },
+        {
+          "text": "html"
+        }
+      ]
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "no , wait"
+        },
+        {
+          "text": "i don't want to start"
+        },
+        {
+          "text": "no i don't want to start"
+        },
+        {
+          "text": "i don't want to start process"
+        },
+        {
+          "text": "naah, wait"
+        },
+        {
+          "text": "wait"
+        },
+        {
+          "text": "want to know process"
+        },
+        {
+          "text": "want to know more"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "naah"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fresher",
+      "examples": [
+        {
+          "text": "new"
+        },
+        {
+          "text": "no experience"
+        },
+        {
+          "text": "I am a fresher"
+        },
+        {
+          "text": "Fresher"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Job_recommendation",
+      "examples": [
+        {
+          "text": "I am looking for mobile development jobs"
+        },
+        {
+          "text": "jobs list"
+        },
+        {
+          "text": "I am looking fro web devlopment jobs"
+        },
+        {
+          "text": "recommend"
+        },
+        {
+          "text": "show me jobs"
+        },
+        {
+          "text": "i am looking for sales jobs"
+        },
+        {
+          "text": "i am looking for jobs"
+        },
+        {
+          "text": "i am looking for Business systems analyst jobs"
+        },
+        {
+          "text": "available jobs"
+        },
+        {
+          "text": "recommend jobs"
+        },
+        {
+          "text": "I am looking for full stack developer jobs"
+        },
+        {
+          "text": "i want to apply for a job"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "degree",
+      "examples": [
+        {
+          "text": "B. E. in computer science"
+        },
+        {
+          "text": "I am a computer engineer"
+        },
+        {
+          "text": "I have completed my engineering in computer engineering"
+        },
+        {
+          "text": "I am a CSE engineer"
+        },
+        {
+          "text": "I am an IT engineer"
+        },
+        {
+          "text": "Master of Computer Applications"
+        },
+        {
+          "text": "I am an Information technology engineer"
+        },
+        {
+          "text": "I have done MCA"
+        },
+        {
+          "text": "I have completed my MCA"
+        },
+        {
+          "text": "Information Technology"
+        },
+        {
+          "text": "B. E. in information technology"
+        },
+        {
+          "text": "CSE"
+        },
+        {
+          "text": "Computer Engineering"
+        },
+        {
+          "text": "I have completed my engineering in Information technology"
+        },
+        {
+          "text": "I have done engineering in computer science engineering"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "day",
+      "examples": [
+        {
+          "text": "day"
+        },
+        {
+          "text": "wednesday"
+        },
+        {
+          "text": "dat"
+        },
+        {
+          "text": "friday"
+        },
+        {
+          "text": "sunday"
+        },
+        {
+          "text": "saturday"
+        },
+        {
+          "text": "thursday"
+        },
+        {
+          "text": "tuesday"
+        },
+        {
+          "text": "monday"
+        }
+      ]
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "hemant ghalot"
+        },
+        {
+          "text": "hemlata ahire"
+        },
+        {
+          "text": "himani"
+        },
+        {
+          "text": "deepLali joshi"
+        },
+        {
+          "text": "hemlata"
+        },
+        {
+          "text": "shubham deore"
+        },
+        {
+          "text": "deepali joshi"
+        },
+        {
+          "text": "komal alhate"
+        },
+        {
+          "text": "my name is ahaya"
+        },
+        {
+          "text": "kiran ahire"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "years",
+      "examples": [
+        {
+          "text": "8"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "10"
+        },
+        {
+          "text": "9"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "6"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "5"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "java_dvlpr",
+      "examples": [
+        {
+          "text": "Java Developer"
+        }
+      ]
+    },
+    {
+      "intent": "end_of_chat",
+      "examples": [
+        {
+          "text": "yes , Thank you"
+        },
+        {
+          "text": "thank you for showing jobs"
+        },
+        {
+          "text": "thank you for recommendation"
+        },
+        {
+          "text": "thank you for recommending"
+        },
+        {
+          "text": "thnks"
+        },
+        {
+          "text": "tnks"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "much appiciated"
+        },
+        {
+          "text": "thank you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marks",
+      "examples": [
+        {
+          "text": "56%"
+        },
+        {
+          "text": "65"
+        },
+        {
+          "text": "9.44"
+        },
+        {
+          "text": "5.78"
+        },
+        {
+          "text": "9.3"
+        },
+        {
+          "text": "8.9"
+        },
+        {
+          "text": "4.5"
+        },
+        {
+          "text": "78.5%"
+        },
+        {
+          "text": "8.6"
+        },
+        {
+          "text": "87.23%"
+        },
+        {
+          "text": "7.8"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "serial_numer",
+      "examples": [
+        {
+          "text": "J3"
+        },
+        {
+          "text": "J10"
+        },
+        {
+          "text": "J100"
+        },
+        {
+          "text": "J4"
+        },
+        {
+          "text": "J46"
+        },
+        {
+          "text": "J343"
+        },
+        {
+          "text": "J30"
+        },
+        {
+          "text": "39"
+        },
+        {
+          "text": "J67"
+        },
+        {
+          "text": "85"
+        },
+        {
+          "text": "J60"
+        },
+        {
+          "text": "J50"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "J1"
+        },
+        {
+          "text": "J2"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "user_details",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mail",
+          "synonyms": [
+            "ahirehemlata2000@gmail.com",
+            "ahirehemlata@yahoo.com",
+            "ahirehemlata13@kkwagh.edu.in",
+            "hjdsvg@gmail.com",
+            "ahirejyoti12@gmail.com",
+            "abcd12@gmail.com",
+            "hsd137@gmail.com",
+            "alhatekomal@gmail.com",
+            "deepu131999@gmail.com",
+            "shubhshem@yahoo.com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Name",
+          "synonyms": [
+            "Hemlata Ahire",
+            "My name is hemlata ahire",
+            "My name is komal",
+            "My name is deepali",
+            "My name is Janhavi",
+            "My name is john",
+            "My name is kiran",
+            "My name is ash",
+            "My name is sai",
+            "My name is dev"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "techskills",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "job_title",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "analyst",
+          "synonyms": [
+            "budget analyst",
+            "digital analyst",
+            "engineer",
+            "strategist",
+            "manager",
+            "anaylst",
+            "consultant",
+            "advisor",
+            "accountant",
+            "specialist",
+            "forecaster",
+            "commentator",
+            "adviser",
+            "advisors",
+            "bookkeeper",
+            "consulting",
+            "specialists",
+            "technician",
+            "counselor",
+            "expert",
+            "advisory",
+            "administrator"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Developer",
+          "synonyms": [
+            "devleopment",
+            "develpoment",
+            "programers",
+            "devolopers",
+            "develper",
+            "desgner",
+            "desginers",
+            "java developer",
+            "web development",
+            "python developer",
+            "full stack developer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "manager",
+          "synonyms": [
+            "director",
+            "administrator",
+            "management",
+            "mgr",
+            "manger",
+            "admin",
+            "coordinator",
+            "supervisor",
+            "engineer",
+            "consultant"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hello",
+          "synonyms": [
+            "helllooo",
+            "hey",
+            "hi",
+            "hiie",
+            "excuse me",
+            "namaste",
+            "namaskar",
+            "hiiii"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": [
+            "GE",
+            "evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good afternoon",
+          "synonyms": [
+            "afternoon",
+            "noon",
+            "GA",
+            "day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": [
+            "GM",
+            "morning",
+            "mornin",
+            "morn",
+            "monring"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://drive.google.com/file/d/1M-YOOfR9GbWGNbp7ZBakU2TchZpzDQFF/view?usp=sharing",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "okay"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1593092799384",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1593092670710"
+      },
+      "conditions": "#experience",
+      "dialog_node": "response_6_1593092936161"
+    },
+    {
+      "type": "standard",
+      "title": "time",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Choose Timing "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "timing",
+            "options": [
+              {
+                "label": "10.00 AM",
+                "value": {
+                  "input": {
+                    "text": "10.00 AM"
+                  }
+                }
+              },
+              {
+                "label": "12.00 Noon",
+                "value": {
+                  "input": {
+                    "text": "12.00 Noon"
+                  }
+                }
+              },
+              {
+                "label": "3.00 PM",
+                "value": {
+                  "input": {
+                    "text": "3:00 PM"
+                  }
+                }
+              },
+              {
+                "label": "5.00 PM",
+                "value": {
+                  "input": {
+                    "text": "5:00 PM"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1593021156859",
+      "conditions": "#day",
+      "dialog_node": "node_10_1593076037216"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592986774092",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1592986774144",
+      "previous_sibling": "handler_3_1592986774143"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592986774092",
+      "context": {},
+      "event_name": "input",
+      "dialog_node": "handler_3_1592986774143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening! how can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592647512846",
+      "conditions": "@Greeting:(good evening)",
+      "dialog_node": "response_3_1592760026031",
+      "previous_sibling": "response_7_1592759983038"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! how can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592647512846",
+      "conditions": "@Greeting:(hello)",
+      "dialog_node": "response_5_1593081318240",
+      "previous_sibling": "response_3_1592760026031"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good afternoon! how can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592647512846",
+      "conditions": "@Greeting:(good afternoon)",
+      "dialog_node": "response_7_1592759983038",
+      "previous_sibling": "response_2_1592759606621"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning! how can i help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592647512846",
+      "conditions": "@Greeting:(good morning)",
+      "dialog_node": "response_2_1592759606621"
+    },
+    {
+      "type": "standard",
+      "title": "Full stack developer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.testdome.com/t?generatorId=16"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592921992535",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1593020070086"
+      },
+      "conditions": "#FS_dvlpr",
+      "dialog_node": "node_2_1594637448862",
+      "previous_sibling": "node_3_1594108841036"
+    },
+    {
+      "type": "standard",
+      "title": "Web Developer Ouestions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.testdome.com/t?generatorId=16"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592921992535",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1593020070086"
+      },
+      "conditions": "#web_dvlpr",
+      "dialog_node": "node_3_1594108841036",
+      "previous_sibling": "node_4_1592985868400"
+    },
+    {
+      "type": "standard",
+      "title": "Java Developer Question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.tutorialspoint.com/java/java_online_test.htm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1592921992535",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1593020070086"
+      },
+      "conditions": "#serial_numer || #java_dvlpr",
+      "dialog_node": "node_4_1592985868400"
+    },
+    {
+      "type": "standard",
+      "title": "Javaskills",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rate your skills in java from (0 -  10)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Goto this link and attempt test on java : https://www.tutorialspoint.com/java/java_online_test.htm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592909763044",
+      "dialog_node": "node_7_1593087818833"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "okay."
+              },
+              {
+                "text": "okay back to me when you want to start."
+              },
+              {
+                "text": "Let mr know when you want to start"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1592756855010",
+      "conditions": "#no",
+      "dialog_node": "response_7_1592759086490",
+      "previous_sibling": "response_5_1592759017491"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to the application process. Application process includes following steps."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1. Provide contact details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "2. Select job title  and Job"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "3. Answer screening questions and get shortlisted"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "You understood flow?"
+              },
+              {
+                "text": "Did  you understood the flow?."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1592756855010",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1592842236694"
+      },
+      "conditions": "#yes",
+      "dialog_node": "response_5_1592759017491"
+    },
+    {
+      "type": "standard",
+      "title": "number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please , Enter your phone number."
+              },
+              {
+                "text": "Enter your phone number."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1592812000092",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1592812347608"
+      },
+      "conditions": "@user_details:Name",
+      "dialog_node": "node_7_1592812328957",
+      "previous_sibling": "node_10_1592812314503"
+    },
+    {
+      "type": "standard",
+      "title": "Degree",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell me about your highest qualifications"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1592812000092",
+      "conditions": "@user_details:mail",
+      "dialog_node": "node_6_1593083289112",
+      "previous_sibling": "node_10_1592812347608"
+    },
+    {
+      "type": "standard",
+      "title": "email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your E-Mail ID"
+              },
+              {
+                "text": "Tell me your E-Mail ID"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1592812000092",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1593083289112"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_10_1592812347608",
+      "previous_sibling": "node_7_1592812328957"
+    },
+    {
+      "type": "standard",
+      "title": "WORK EXPERIENCE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fresher or Experienced ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1592812000092",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#marks || @sys-percentage",
+      "dialog_node": "node_1_1593090835888",
+      "previous_sibling": "node_6_1593083289112"
+    },
+    {
+      "type": "standard",
+      "title": "name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please , Enter your name ."
+              },
+              {
+                "text": "Tell me your name."
+              },
+              {
+                "text": "What is your name?."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1592812000092",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1592812328957"
+      },
+      "conditions": "",
+      "dialog_node": "node_10_1592812314503"
+    },
+    {
+      "type": "standard",
+      "title": "marks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell your final year marks "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593083289112",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1593090835888"
+      },
+      "conditions": "#degree",
+      "dialog_node": "node_4_1593084778289"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "please, Enter valid title"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1592908882889",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1592908882939",
+      "previous_sibling": "handler_1_1592908882939"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592908882889",
+      "context": {
+        "job_title": "@job_title"
+      },
+      "conditions": "@job_title",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592908882939"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593088110829",
+      "conditions": "@sys-percentage < 40 && @sys-number > 5",
+      "dialog_node": "response_10_1593088590636",
+      "previous_sibling": "response_3_1593088554903"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593088110829",
+      "conditions": "@sys-number > 5 && @sys-percentage>60 && @sys-percentage<40",
+      "dialog_node": "response_9_1593088471747",
+      "previous_sibling": "response_3_1593088327439"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593088110829",
+      "conditions": "@sys-percentage < 40 && @sys-number < 5",
+      "dialog_node": "response_3_1593088554903",
+      "previous_sibling": "response_9_1593088471747"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593088110829",
+      "conditions": "@sys-number> 5 && @sys-percentage >75",
+      "dialog_node": "response_3_1593088327439"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1592985868400",
+      "variable": "db",
+      "dialog_node": "slot_7_1592986774092"
+    },
+    {
+      "type": "standard",
+      "title": "fresh",
+      "parent": "node_1_1593090835888",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1592755845475"
+      },
+      "conditions": "#fresher",
+      "dialog_node": "node_8_1593093093278",
+      "previous_sibling": "node_7_1593092799384"
+    },
+    {
+      "type": "standard",
+      "title": "tellexp",
+      "parent": "node_1_1593090835888",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#experience && #fresher",
+      "dialog_node": "node_7_1593092799384",
+      "previous_sibling": "node_5_1593092670710"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OKAY!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593090835888",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1592755845475"
+      },
+      "conditions": "#years",
+      "dialog_node": "node_5_1593094019835",
+      "previous_sibling": "node_8_1593093093278"
+    },
+    {
+      "type": "standard",
+      "title": "Exp",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "tell years of experience"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593090835888",
+      "conditions": "#experience",
+      "dialog_node": "node_5_1593092670710",
+      "previous_sibling": "response_5_1593092756418"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fresher or Experienced ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593090835888",
+      "disabled": true,
+      "dialog_node": "response_5_1593092756418"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please Read it again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_6_1592755845475",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1592815801246"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_4_1592757672828",
+      "previous_sibling": "node_3_1592756855010"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "parent": "node_6_1592755845475",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_3_1592756855010"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops!!!! You are not good enough please try again next time with more abilities.!!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593020070086",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1592815801246"
+      },
+      "conditions": "@sys-percentage < 60",
+      "dialog_node": "response_8_1593020396658",
+      "previous_sibling": "response_9_1593020297501"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Job!!!!! Well done."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593020070086",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1593021156859"
+      },
+      "conditions": "@sys-percentage > 40 && @sys-percentage < 75",
+      "dialog_node": "response_9_1593020297501",
+      "previous_sibling": "response_10_1593020132604"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congragulations , You did it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593020070086",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1593021156859"
+      },
+      "conditions": "@sys-percentage > 75",
+      "dialog_node": "response_10_1593020132604"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1592842236694",
+      "variable": "$job_title",
+      "dialog_node": "slot_4_1592908882889",
+      "previous_sibling": "handler_2_1592908979874"
+    },
+    {
+      "type": "standard",
+      "title": "Web developer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.indeed.co.in/Web-Developer-jobs-in-Nashik,-Maharashtra"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592842236694",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1592921992535"
+      },
+      "conditions": "@job_title:Developer && #web_dvlpr",
+      "dialog_node": "node_1_1592985715597",
+      "previous_sibling": "node_2_1592985790255"
+    },
+    {
+      "type": "standard",
+      "title": "full stack developer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.payscale.com/research/IN/Job=Full_Stack_Software_Develope"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592842236694",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1592921992535"
+      },
+      "conditions": "@job_title:Developer && #FS_dvlpr",
+      "dialog_node": "node_2_1592985790255",
+      "previous_sibling": "node_4_1592909763044"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Available Developer job",
+            "options": [
+              {
+                "label": "Java Developer",
+                "value": {
+                  "input": {
+                    "text": "Java Developer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1592842236694",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_10_1592842324853",
+      "previous_sibling": "slot_4_1592908882889"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Choose toitle"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1592842236694",
+      "conditions": "#yes",
+      "event_name": "generic",
+      "dialog_node": "handler_2_1592908979874",
+      "previous_sibling": "node_1_1592985715597"
+    },
+    {
+      "type": "standard",
+      "title": "java developer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.indeed.co.in/Java-Developer-jobs-in-Nashik,-Maharashtra"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592842236694",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1592921992535"
+      },
+      "conditions": "@job_title:Developer && #java_dvlpr",
+      "dialog_node": "node_4_1592909763044"
+    },
+    {
+      "type": "standard",
+      "title": "CheckSkills",
+      "parent": "node_7_1593087818833",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#rates && @sys-percentage || @sys-number",
+      "dialog_node": "node_1_1593088110829"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1592647512846",
+      "previous_sibling": "node_9_1594636258027"
+    },
+    {
+      "type": "standard",
+      "title": "End chat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your response. BYE!"
+              },
+              {
+                "text": "Thank you for choosing me . Hope you enjoyed"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "source": "https://st2.depositphotos.com/1273672/5473/v/450/depositphotos_54731417-stock-illustration-man-says-bye-bye.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#end_of_chat",
+      "dialog_node": "node_8_1592815801246",
+      "previous_sibling": "node_10_1593021156859"
+    },
+    {
+      "type": "standard",
+      "title": "User details",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please give me some details."
+              },
+              {
+                "text": "I want your contact details"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1592812314503"
+      },
+      "conditions": "#Job_recommendation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1592812000092",
+      "previous_sibling": "node_3_1592647512846"
+    },
+    {
+      "type": "standard",
+      "title": "evaluate result",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-percentage || #test_res",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1593020070086",
+      "previous_sibling": "node_5_1592921992535"
+    },
+    {
+      "type": "standard",
+      "title": "Get started",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your deatils are recorded succesfully"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Do you want to start process?."
+              },
+              {
+                "text": "Are you ready to start the process?."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1592756855010"
+      },
+      "conditions": "@user_details:mail",
+      "dialog_node": "node_6_1592755845475",
+      "previous_sibling": "node_6_1592812000092"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "Please give me specific answer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1592820273378",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "instructions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have scheduled your interview. Please follow the instructions given below:     \n1. Bring your resume and all the necessary certificates/documents.\n2. Be at the venue 20 minutes earlier than scheduled time.\n3. Wear formals while coming for interview.\n4. Bring printout of your screening test result conducted during online process.\nWe wish you all the best for your interview!\nGood luck!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1592815801246"
+      },
+      "conditions": "@sys-time",
+      "dialog_node": "node_9_1594636258027",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "go back",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#go_back",
+      "dialog_node": "node_5_1592820273378",
+      "previous_sibling": "node_8_1592815801246"
+    },
+    {
+      "type": "standard",
+      "title": "Available categories",
+      "output": {
+        "generic": [
+          {
+            "title": "Available Developer job",
+            "options": [
+              {
+                "label": "Java Developer",
+                "value": {
+                  "input": {
+                    "text": "Java Developer"
+                  }
+                }
+              },
+              {
+                "label": "Web Developer",
+                "value": {
+                  "input": {
+                    "text": "web Developer"
+                  }
+                }
+              },
+              {
+                "label": "Full stack Developer",
+                "value": {
+                  "input": {
+                    "text": "Full stack developer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_9_1592842236694",
+      "previous_sibling": "node_6_1592755845475"
+    },
+    {
+      "type": "standard",
+      "title": "Interview scheduler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please choose your available slot. or request slot by mailing us at hemlataahire2000@gmail.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Interviwe available slots",
+            "options": [
+              {
+                "label": "Monday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              },
+              {
+                "label": "Tuesday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              },
+              {
+                "label": "Wednesday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              },
+              {
+                "label": "Thiursday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              },
+              {
+                "label": "Friday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              },
+              {
+                "label": "Saturday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              },
+              {
+                "label": "Sunday",
+                "value": {
+                  "input": {
+                    "text": "day"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1593076037216"
+      },
+      "dialog_node": "node_10_1593021156859",
+      "previous_sibling": "node_8_1593020070086"
+    },
+    {
+      "type": "standard",
+      "title": "Questions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please goto below link and back to me with your score."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@job_title",
+      "dialog_node": "node_5_1592921992535",
+      "previous_sibling": "node_9_1592842236694"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "source": "https://cdn4.vectorstock.com/i/1000x1000/44/03/welcome-neon-text-welcome-neon-sign-vector-21934403.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Welcome , Front of you is AI Recruiter . HDK made me to make recruiting task easier."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": false
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Job reccomendation",
+  "language": "en",
+  "description": ""
+}
